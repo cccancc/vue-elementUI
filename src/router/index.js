@@ -7,13 +7,14 @@ Vue.use(Router)
 var routes = []
 
 menus.forEach((item) => {
-  item.sub.forEach((sub) => {
-    routes.push({
-      path: `/${sub.componentName}`,
-      name: sub.componentName,
-      component: () => import(`@/components/${sub.componentName}`)
+    item.sub.forEach((sub) => {
+        routes.push({
+            path: `/${sub.componentName}`,
+            name: sub.componentName,
+            component: () =>
+                import (`@/components/${sub.componentName}`)
+        })
     })
-  })
 })
 
 export default new Router({ routes })

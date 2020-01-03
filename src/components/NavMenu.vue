@@ -1,4 +1,4 @@
-<template>
+<template >
   <el-row class="tac">
   <el-col :span="24">
     <el-menu
@@ -7,9 +7,7 @@
       unique-opened
       @open="handleOpen"
       @close="handleClose"
-      background-color="#545c64"
-      text-color="#fff"
-      active-text-color="#ffd04b">
+      active-text-color="#409eff">
 
       <el-submenu v-for="item in menu" :index="item.id" :key="item.id">
         <template slot="title">
@@ -52,3 +50,6 @@
     }
   }
 </script>
+<style scoped>
+
+</style>

@@ -1,23 +1,37 @@
 module.exports = [{
-  name: '基础',
-  id: 'basic',
-  icon: 'th-large',
-  sub: [{
-    name: 'Layout 布局',
-    componentName: 'BasicLayout'
-  }, {
-    name: 'Container 布局容器',
-    componentName: 'BasicContainer'
-  }]
+    name: 'User Management',
+    id: 'basic',
+    icon: 'th-large',
+    sub: [{
+        name: 'User List',
+        componentName: 'UserList'
+    }, {
+        name: 'Admin List',
+        componentName: 'AdminList'
+    }, {
+        name: 'Add User/Admin',
+        componentName: 'AddUser'
+    }]
 }, {
-  name: 'Form',
-  id: 'form',
-  icon: 'wpforms',
-  sub: [{
-    name: 'Radio 单选框',
-    componentName: 'FormRadio'
-  }, {
-    name: 'Checkbox 多选框',
-    componentName: 'FormCheckbox'
-  }]
+    name: 'Server Management',
+    id: 'Server',
+    icon: 'wpforms',
+    sub: [{
+        name: 'Server List',
+        componentName: 'ServerList'
+    }, {
+        name: 'Server Dashboard',
+        componentName: 'ServerDashboard'
+    }]
+}, {
+    name: '3',
+    id: '3',
+    icon: 'wpforms',
+    sub: [{
+        name: '3-1',
+        componentName: ''
+    }, {
+        name: '3-2',
+        componentName: ''
+    }]
 }]

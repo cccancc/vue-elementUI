@@ -1,5 +1,5 @@
 <template>
   <div>
-    这是：Checkbox 多选框
+    这是：server list
   </div>
 </template>
