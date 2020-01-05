@@ -9,7 +9,6 @@ This program is designed as a [Server Management Platform],granted users can man
 
 * [vue.js 2](http://vuejs.org)
 * [elementUI](https://element.eleme.cn/#/zh-CN)
-* [faker.js](https://github.com/marak/Faker.js/)
 * [vue-router.js]
 
 ## Utilized elementUI components
@@ -19,3 +18,6 @@ This program is designed as a [Server Management Platform],granted users can man
 * [Button]
 * [Table]
 
+
+## Page display
+* [Add user/admin page]
