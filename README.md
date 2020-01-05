@@ -21,3 +21,4 @@ This program is designed as a [Server Management Platform],granted users can man
 
 ## Page display
 * [Add user/admin page]
+![image](https://github.ibm.com/cccancc/vue-elementUI-demo/master/AdduserPage.png)
