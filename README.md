@@ -13,12 +13,12 @@ This program is designed as a [Server Management Platform],granted users can man
 
 ## Utilized elementUI components
 
-* [Container]
-* [Layout]
-* [Button]
-* [Table]
+* Container
+* Layout
+* Button
+* Table
 
 
 ## Page display
 * [Add user/admin page]
-![image](https://github.ibm.com/cccancc/vue-elementUI-demo/master/AdduserPage.png)
+![image](https://github.ibm.com/cccancc/vue-elementUI-demo/raw/master/AdduserPage.png)
