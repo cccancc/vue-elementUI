@@ -1,7 +1,7 @@
 module.exports = [{
     name: 'User Management',
     id: 'basic',
-    icon: 'th-large',
+    icon: 'el-icon-menu',
     sub: [{
         name: 'User List',
         componentName: 'UserList'
@@ -14,8 +14,8 @@ module.exports = [{
     }]
 }, {
     name: 'Server Management',
-    id: 'Server',
-    icon: 'wpforms',
+    id: 'server',
+    icon: 'el-icon-s-platform',
     sub: [{
         name: 'Server List',
         componentName: 'ServerList'
@@ -24,14 +24,14 @@ module.exports = [{
         componentName: 'ServerDashboard'
     }]
 }, {
-    name: '3',
-    id: '3',
-    icon: 'wpforms',
+    name: 'Dashboard',
+    id: 'dashboard',
+    icon: 'el-icon-s-data',
     sub: [{
-        name: '3-1',
-        componentName: ''
+        name: 'User Track',
+        componentName: 'backup1'
     }, {
-        name: '3-2',
-        componentName: ''
+        name: 'Server Usage',
+        componentName: 'backup2'
     }]
 }]

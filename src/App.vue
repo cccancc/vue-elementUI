@@ -5,7 +5,7 @@
         <vheader />
       </el-header>
       <el-container>
-        <el-aside width="200px" >
+        <el-aside width="240px" >
           <navmenu ></navmenu>
         </el-aside>
         <el-main>
