@@ -2,7 +2,6 @@
   <el-row>
     <el-col :span="24">
       <el-table
-        size="mini"
         :data="master_user.data"
         border
         style="width: 100%"
@@ -17,7 +16,7 @@
         >
           <template slot-scope="scope">
             <span v-if="scope.row.isSet">
-              <el-input size="mini" placeholder="请输入内容" v-model="master_user.sel[item.prop]"></el-input>
+              <el-input  placeholder="Please input data" v-model="master_user.sel[item.prop]"></el-input>
             </span>
             <span v-else>{{scope.row[item.prop]}}</span>
           </template>

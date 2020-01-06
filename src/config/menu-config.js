@@ -17,12 +17,17 @@ module.exports = [{
     id: 'server',
     icon: 'el-icon-s-platform',
     sub: [{
-        name: 'Server List',
-        componentName: 'ServerList'
-    }, {
-        name: 'Server Dashboard',
-        componentName: 'ServerDashboard'
-    }]
+            name: 'Server List',
+            componentName: 'ServerList'
+        }, {
+            name: 'Server Dashboard',
+            componentName: 'ServerDashboard'
+        },
+        {
+            name: 'Apply Server',
+            componentName: 'AddServer'
+        },
+    ]
 }, {
     name: 'Dashboard',
     id: 'dashboard',

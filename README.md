@@ -18,7 +18,9 @@ This program is designed as a [Server Management Platform],granted users can man
 * Button
 * Table
 
-
 ## Page display
-* [Add user/admin page]
+* Add user/admin page
 ![image](https://github.ibm.com/cccancc/vue-elementUI-demo/raw/master/AdduserPage.png)
+
+* Apply Server page
+![image](https://github.ibm.com/cccancc/vue-elementUI-demo/raw/master/AddServer.gif)

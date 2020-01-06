@@ -1,5 +1,7 @@
 <template>
   <div>
-    这是：server list
+   server
+    
+   
   </div>
 </template>
