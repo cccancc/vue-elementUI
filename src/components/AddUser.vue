@@ -58,7 +58,7 @@ export default {
   data() {
     return {
       master_user: {
-        sel: null, //选中行
+        sel: null, 
         columns: [
           {
             prop: "name",
