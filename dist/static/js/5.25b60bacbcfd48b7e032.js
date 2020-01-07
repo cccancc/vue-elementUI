@@ -89,9 +89,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ var AddServer = ({
-  data() {
+  data: function data() {
     // number check
-    var checkNum = (rule, value, callback) => {
+    var checkNum = function checkNum(rule, value, callback) {
       if (value < 0) {
         callback(new Error("Please input correct value"));
       } else {
@@ -175,41 +175,45 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       }
     };
   },
+
   methods: {
-    scrollToTop() {
+    scrollToTop: function scrollToTop() {
       window.scrollTo(0, 0);
     },
-    scrollToBottom() {
+    scrollToBottom: function scrollToBottom() {
       window.scrollTo(0, document.documentElement.scrollHeight);
     },
+
     // 提交表单
-    submitForm(formName) {
-      this.$refs[formName].validate(valid => {
+    submitForm: function submitForm(formName) {
+      var _this = this;
+
+      this.$refs[formName].validate(function (valid) {
         if (valid) {
-          var submitMes = this.$message({
+          var submitMes = _this.$message({
             message: "Form is submitted successfully.",
             type: "success"
           });
-          let ret = "";
-          for (let it in this.forms) {
-            ret += encodeURIComponent(it) + "=" + encodeURIComponent(this.forms[it]) + "&";
+          var ret = "";
+          for (var it in _this.forms) {
+            ret += encodeURIComponent(it) + "=" + encodeURIComponent(_this.forms[it]) + "&";
           }
-          this.$ajax2({
+          _this.$ajax2({
             url: "/saveYnsioregis",
             type: "post",
             data: ret,
-            success: res => {
+            success: function success(res) {
               if (res.success) {
                 submitMes.close();
-                this.$message({
+                _this.$message({
                   message: res.message,
                   type: "success"
                 });
               }
             },
-            error: () => {
+            error: function error() {
               submitMes.close();
-              this.$message({
+              _this.$message({
                 message: "Submit failed!",
                 type: "warning"
               });
@@ -221,13 +225,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         }
       });
     },
+
     // reset form
-    resetForm(formName) {
+    resetForm: function resetForm(formName) {
       this.$refs[formName].resetFields();
     },
+
     // fill form for test
-    fillAll() {
-      let randomResult = Math.random() > 0.5;
+    fillAll: function fillAll() {
+      var randomResult = Math.random() > 0.5;
       this.forms.Sname = randomResult ? "0" : "1";
       this.forms.Pnum = randomResult ? 13318031415 : "13318031419";
       this.forms.Sname = this.forms.Sname ? this.forms.Sname + 1 : 1;
@@ -272,4 +278,4 @@ var Component = normalizeComponent(
 /***/ })
 
 });
-//# sourceMappingURL=5.ac7e7d116cc8e0f94359.js.map
+//# sourceMappingURL=5.25b60bacbcfd48b7e032.js.map
