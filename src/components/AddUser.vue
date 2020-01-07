@@ -8,13 +8,12 @@
         highlight-current-row
       >
         <el-table-column type="index"></el-table-column>
-        <el-table-column>
-        <!-- <el-table-column
-          v-for="(item,index) in master_user.columns"
+        <el-table-column
+         
           :label="item.label"
           :prop="item.prop"
           :width="item.width"
-        > -->
+        >
           <template slot-scope="scope">
             <span v-if="scope.row.isSet">
               <el-input  placeholder="Please input data" v-model="master_user.sel[item.prop]"></el-input>
