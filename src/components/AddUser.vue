@@ -9,7 +9,7 @@
       >
         <el-table-column type="index"></el-table-column>
         <el-table-column
-         
+          v-for="(item,index) in master_user.columns"
           :label="item.label"
           :prop="item.prop"
           :width="item.width"
