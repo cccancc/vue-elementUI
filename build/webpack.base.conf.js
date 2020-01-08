@@ -16,6 +16,8 @@ module.exports = {
     output: {
         path: config.build.assetsRoot,
         filename: '[name].js',
+        library: 'element-ui',
+        libraryTarget: 'umd',
         publicPath: process.env.NODE_ENV === 'production' ?
             config.build.assetsPublicPath : config.dev.assetsPublicPath
     },
