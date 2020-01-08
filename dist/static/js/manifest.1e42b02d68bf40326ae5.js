@@ -91,7 +91,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "static/js/" + ({}[chunkId]||chunkId) + "." + {"0":"088503a95dfc0e7d560e","1":"696a1fe509d8d68d553b","2":"a177a5492fc2cea2573b","3":"64ab1c0abef0b314c0bb","4":"d3821cb9c8c57f767b6f","5":"25b60bacbcfd48b7e032"}[chunkId] + ".js";
+/******/ 		script.src = __webpack_require__.p + "static/js/" + ({}[chunkId]||chunkId) + "." + {"0":"5115c9bce3722bd0268b","1":"c8aeba91d89ec6c2b821","2":"d938cd681722d24bc6ce","3":"59b523862f41be51da85","4":"8bbd2d5dd1ede2155716","5":"e1e6c37fc53baa9d6520"}[chunkId] + ".js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
@@ -141,11 +141,11 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/vue-el-dashboard/";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// on error function for async loading
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
 /******/ })
 /************************************************************************/
 /******/ ([]);
-//# sourceMappingURL=manifest.ed72708b64a8a3956a68.js.map
+//# sourceMappingURL=manifest.1e42b02d68bf40326ae5.js.map

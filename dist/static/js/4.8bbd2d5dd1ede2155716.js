@@ -176,7 +176,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   },
   components: {}
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7910cf0b","hasScoped":false,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/AddUser.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7910cf0b","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/AddUser.vue
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-row',[_c('el-col',{attrs:{"span":24}},[_c('el-table',{staticStyle:{"width":"100%"},attrs:{"data":_vm.master_user.data,"border":"","highlight-current-row":""}},[_c('el-table-column',{attrs:{"type":"index"}}),_vm._v(" "),_vm._l((_vm.master_user.columns),function(item,index){return _c('el-table-column',{attrs:{"label":item.label,"prop":item.prop,"width":item.width},scopedSlots:_vm._u([{key:"default",fn:function(scope){return [(scope.row.isSet)?_c('span',[_c('el-input',{attrs:{"placeholder":"Please input data"},model:{value:(_vm.master_user.sel[item.prop]),callback:function ($$v) {_vm.$set(_vm.master_user.sel, item.prop, $$v)},expression:"master_user.sel[item.prop]"}})],1):_c('span',[_vm._v(_vm._s(scope.row[item.prop]))])]}}],null,true)})}),_vm._v(" "),_c('el-table-column',{attrs:{"label":"Operation","width":""},scopedSlots:_vm._u([{key:"default",fn:function(scope){return [_c('el-button',{attrs:{"type":"success","icon":"el-icon-check","circle":""},on:{"click":function($event){$event.stopPropagation();return _vm.saveRow(scope.row,scope.$index)}}}),_vm._v(" "),_c('el-button',{attrs:{"type":"primary","icon":"el-icon-edit","circle":""},on:{"click":function($event){return _vm.editRow(scope.row,scope.$index)}}}),_vm._v(" "),_c('el-button',{attrs:{"type":"danger","icon":"el-icon-delete","circle":""},on:{"click":function($event){return _vm.deleteRow(scope.$index,_vm.master_user.data)}}})]}}])})],2)],1),_vm._v(" "),_c('el-col',{attrs:{"span":24}},[_c('el-button',{attrs:{"type":"primary"},on:{"click":function($event){return _vm.add()}}},[_vm._v("Add User/Admin")])],1)],1)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
@@ -211,4 +211,4 @@ var Component = normalizeComponent(
 /***/ })
 
 });
-//# sourceMappingURL=4.d3821cb9c8c57f767b6f.js.map
+//# sourceMappingURL=4.8bbd2d5dd1ede2155716.js.map

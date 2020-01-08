@@ -77,7 +77,7 @@ var menu_config_default = /*#__PURE__*/__webpack_require__.n(menu_config);
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-5ae047f4","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/NavMenu.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-5ae047f4","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/NavMenu.vue
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-row',{staticClass:"tac"},[_c('el-col',{attrs:{"span":24}},[_c('el-menu',{staticClass:"el-menu-vertical-demo",attrs:{"router":"","unique-opened":"","active-text-color":"#409eff"},on:{"open":_vm.handleOpen,"close":_vm.handleClose}},_vm._l((_vm.menu),function(item){return _c('el-submenu',{key:item.id,attrs:{"index":item.id}},[_c('template',{slot:"title"},[_c('i',{class:item.icon}),_vm._v(" "),_c('span',{domProps:{"textContent":_vm._s(item.name)}})]),_vm._v(" "),_vm._l((item.sub),function(sub){return _c('el-menu-item-group',{key:sub.componentName,staticClass:"over-hide"},[_c('el-menu-item',{attrs:{"index":sub.componentName},domProps:{"textContent":_vm._s(sub.name)}})],1)})],2)}),1)],1)],1)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
@@ -248,7 +248,7 @@ var Header = __webpack_require__("teIlt");
     'vheader': Header["default"]
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-17ff8220","hasScoped":false,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-17ff8220","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/App.vue
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('el-container',[_c('el-header',{staticClass:"header"},[_c('vheader')],1),_vm._v(" "),_c('el-container',[_c('el-aside',{attrs:{"width":"240px"}},[_c('navmenu')],1),_vm._v(" "),_c('el-main',[_c('router-view')],1)],1)],1)],1)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
@@ -400,7 +400,7 @@ module.exports = [{
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-5074da76","hasScoped":true,"transformToRequire":{"video":"src","source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Header.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-5074da76","hasScoped":true,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Header.vue
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('el-row',[_c('el-col',{attrs:{"span":24}},[_c('div',{staticClass:"head-wrap"},[_c('i',{staticClass:"el-icon-s-home"}),_vm._v(" Server Management System")])])],1)}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
@@ -444,4 +444,4 @@ var Component = normalizeComponent(
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.efc24240a88137fa3b65.js.map
+//# sourceMappingURL=app.e99800504ce79a65115b.js.map
